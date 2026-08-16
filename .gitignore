@@ -1,0 +1,12 @@
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
+*.pyc
+
+# IPUMS raw microdata extract — not redistributed, per IPUMS terms of use
+# (each user must pull their own extract). Cleaned/derived data is fine
+# to commit; the raw IPUMS file itself is not.
+data/raw/*.csv
+data/raw/*.dat
+data/raw/*.xml
+!data/raw/.gitkeep
